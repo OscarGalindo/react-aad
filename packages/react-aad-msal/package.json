@@ -1,6 +1,6 @@
 {
   "name": "react-aad-msal",
-  "version": "2.3.4",
+  "version": "2.3.5",
   "description": "A react component that integrates with Azure AD (v2, MSAL).",
   "private": false,
   "license": "MIT",
@@ -108,5 +108,6 @@
     "Microsoft Authentication Library",
     "Azure Active Directory",
     "Azure"
-  ]
+  ],
+  "gitHead": "8a3bcef5e1bf52fccc5330a578a11130b5fc1e03"
 }
