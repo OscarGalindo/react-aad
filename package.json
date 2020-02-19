@@ -3,6 +3,7 @@
   "devDependencies": {
     "lerna": "^3.19.0"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "workspaces": {
     "packages": [
       "packages/*",
@@ -16,8 +17,7 @@
     "start": "yarn workspace react-aad-msal start",
     "lint": "yarn workspace react-aad-msal lint",
     "test": "yarn workspace react-aad-msal test",
-    "build": "yarn workspace react-aad-msal build",
-    "prepare": "npm run build"
+    "build": "yarn workspace react-aad-msal build"
   },
   "dependencies": {},
   "husky": {
