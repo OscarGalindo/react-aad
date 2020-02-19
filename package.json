@@ -18,7 +18,7 @@
     "lint": "yarn workspace react-aad-msal lint",
     "test": "yarn workspace react-aad-msal test",
     "build": "yarn workspace react-aad-msal build",
-    "prepare": "yarn build"
+    "prepare": "npm run build"
   },
   "dependencies": {},
   "husky": {
